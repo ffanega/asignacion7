@@ -1,0 +1,9 @@
+services:
+  contenedor1:
+    image: asignacion8
+    volumes:
+      - "vol1:\\app asignacion8"
+version: "3.3"
+volumes:
+  vol1:
+    external: true
